@@ -16,3 +16,16 @@ header{
     width: 150px;
 }
 
+.sottotitolo::after{
+    content: "The Booleaner";
+    color: rgb(47,175,230);
+}
+
+.sottotitolo, #data{
+    padding: 1px;
+    font-size: 15px;
+}
+
+article>p{
+    color: rgb(135, 135, 135);
+}
