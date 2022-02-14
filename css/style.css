@@ -21,11 +21,10 @@ header{
     color: rgb(47,175,230);
 }
 
-.sottotitolo, #data{
-    padding: 1px;
-    font-size: 15px;
+.sottotitolo, #data, div>p{
+    font-size: 10px;
 }
 
-article>p{
+.title>p{
     color: rgb(135, 135, 135);
 }
