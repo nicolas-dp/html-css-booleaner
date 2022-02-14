@@ -1,0 +1,18 @@
+html {
+	width: 1057px;
+    height: 1546px;
+    margin: auto;
+	}
+
+header{
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: rgb(78,160,255);
+    
+}
+
+#logo{
+    margin-top: 5%;
+    width: 150px;
+}
+
