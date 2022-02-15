@@ -1,0 +1,105 @@
+html {
+	width: 1057px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+:root{
+    --main-color:  rgb(201, 31, 31); /* Tutto il colore della pagina */
+    --headin-color: rgb(201, 31, 31); /* Impostiamo il colore della tabella */
+}
+
+header{
+    background-image: url(../img/pattern.png);
+    background-size: 35%;
+    background-color: var(--main-color);
+    
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+#logo{
+    margin-top: 5%;
+    width: 150px; 
+}
+
+#data{
+    margin-top: 0;
+}
+
+/* Creazione titolo dell'articolo */
+.title>span{
+    margin-top: 0;
+    color: rgb(135, 135, 135);
+}
+
+.sottotitolo::after{
+    content: "The Booleaner";
+    color: var(--headin-color);
+    margin: 0;
+}
+
+.sottotitolo, #data, div>p{
+    font-size: 10px;
+}
+
+ul{
+    padding-left: 1rem;
+}
+
+
+
+
+/* settaggi tabella */
+
+th{
+    background-color: rgb(32,169,229);
+    color: white;
+}
+
+.tabella{
+    padding: 0;
+    border: 0;
+    text-align: left;
+    border-spacing: 0;
+    
+}
+
+.description{
+    width: 50%;
+}
+
+#first-row, #final-row{
+    background-color: rgb(177,229,242);
+}
+
+
+/* Parte finale */
+
+footer>h3{
+    color: rgb(128, 128, 128);
+    padding-left: 5px;
+}
+
+#text {
+     background-image: url(../img/monitor.jpg);
+  }
+
+#final-text {
+     background-image: url(../img/graph.jpg);
+ }
+
+  .related{
+    margin: 5px;
+    padding-left: 5px;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 120%;
+    font-weight: normal;
+    line-height: 50px;
+    width: 250px;
+    height: 200px;
+  }
